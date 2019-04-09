@@ -12,7 +12,7 @@ const Title = ({ value, desc, un }) => {
   return (
     <Helmet>
       <title>
-        {un ? `(${un})` : ''} {`${value}`} • Instagram
+        {un ? `(${un})` : ''} {`${value}`} • Xterat
       </title>
       <meta name="description" content={desc} />
     </Helmet>
@@ -22,7 +22,7 @@ const Title = ({ value, desc, un }) => {
 Title.defaultProps = {
   value: '',
   desc:
-    "Instagram lets you capture, follow, like and share world's moments in a better way and tell your story with photos, messages, posts and everything in between!!",
+    "Xterat lets you capture, follow, like and share world's moments in a better way and tell your story with photos, messages, posts and everything in between!!",
 }
 
 Title.propTypes = {
